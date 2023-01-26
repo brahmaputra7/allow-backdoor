@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware')
 const app = express()
 
 
-const allowedOrigins = ['http://localhost:3185', 'https ://prisign-brahma.netlify.app']
+const allowedOrigins = ['http://localhost:3185', 'https://prisign-brahma.netlify.app']
 
 app.use(cors({
   origin: (origin, callback) => {
